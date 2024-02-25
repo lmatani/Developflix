@@ -23,7 +23,7 @@ function incluirPeliEnLista(idDiv, pelicula){
     const ulElem = document.querySelector('#' + idDiv + ' ul');
     let liElem = document.createElement('li');
     liElem.innerHTML = `
-            <img src="https://image.tmdb.org/t/p/w500/${pelicula.backdrop_path}" alt="${pelicula.title}">
+            <a href="#"><img src="https://image.tmdb.org/t/p/w500/${pelicula.backdrop_path}" alt="${pelicula.title}"></a>
             <p>${pelicula.title}</p>`;
     ulElem.appendChild(liElem);
 }

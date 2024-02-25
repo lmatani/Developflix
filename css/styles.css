@@ -23,7 +23,7 @@ ul{
   text-align: left;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 15px;
   list-style: none;
 }
 
@@ -40,7 +40,10 @@ p {
 }
 
 img {
-
   width: 200px;
   height: 250px;
+}
+
+a:hover img{
+  transform: scale(1.1);
 }
